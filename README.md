@@ -2,7 +2,7 @@
 
 GestureLab is a **touch-free, real-time 3D particle interaction platform** where users can **control, scale, rotate, and manipulate particles using hand gestures**.
 
-![GestureLab]()
+![GestureLab](https://github.com/KrishBharadwaj5678/GestureLab/raw/main/GestureLabDemo.png)
 
 ## 🧠 Features
 
