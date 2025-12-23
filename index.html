@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Gesture Lab" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Touchless Particle Playground</title>
+    <meta
+      name="description"
+      content="GestureLab is an interactive 3D particle experience powered by hand gestures using MediaPipe and Three.js. Control, scale, spin, and manipulate particles without touch."
+    />
+    <meta
+      name="keywords"
+      content="GestureLab, AI, hand gesture control, 3D particles, Three.js, MediaPipe Hands, gesture based interaction, touchless UI, web experiments"
+    />
+    <meta name="author" content="Krish Bharadwaj" />
+  </head>
+  <body>
+    <div id="ui">
+      <h2>Gesture Rules</h2>
+      <p>🖐 <b>Open:</b> Move Shape</p>
+      <p>🤏 <b>Pinch:</b> Scale Shape</p>
+      <p>👌 <b>OK:</b> Change Color Theme</p>
+      <p>🤘 <b>Rock:</b> Activate Spinning</p>
+      <p>✊ <b>Fist:</b> Create Gravity Pull</p>
+    </div>
+
+    <div id="video-container">
+      <video autoplay playsinline id="webcam"></video>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
