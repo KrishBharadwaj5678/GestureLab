@@ -36,7 +36,7 @@ To run GestureLab locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/GestureLab.git
+    git clone https://github.com/KrishBharadwaj5678/GestureLab.git
     ```
 
 2. Open in Browser
